@@ -41,7 +41,7 @@ window.addEventListener('scroll', () => {
 
 // Typing Text
 
-const words = ['Yutika','Developer','Runner', 'Product Geek', 'Writer', 'Climate Activist' ]; // Add your own words here
+const words = ['Yutika','Developer','Runner', 'Product Geek', 'Writer', 'Climate Activist', 'Reader' ]; // Add your own words here
 let currentIndex = 0;
 
 
