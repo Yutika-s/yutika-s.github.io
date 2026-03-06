@@ -57,7 +57,7 @@ p{
     margin: 0 50px 20px -360px;
 }
 
- .content{
+.content{
     font-size: 0;
     line-height: 0;
     word-spacing: -.31em;
@@ -93,8 +93,9 @@ p{
 }
 
 .three{
-    float: left ;
-    border-right: 1px solid #2f2f2f;
+    position: relative;
+    float: left;
+    width: 280px;
 }
 
 .four{
@@ -105,14 +106,16 @@ p{
 
 .five{
     max-height: fit-content;
-    float: inline-end;
+    float: right;
     margin-top: -50px;
+    width: 35.93%;
 }
 
 .six{
-    position: relative;
+    position: static;
     float: left;
-    margin-top: -1200px;
+    width: 37%;
+    margin-top: -635px;
 }
 
 
@@ -142,6 +145,7 @@ p{
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
 /* line above heading */
 .collumn .headline.hl2:before{
     border-top: 1px solid #2f2f2f;
