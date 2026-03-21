@@ -57,9 +57,9 @@ function typeNextWord() {
 
     if (charIndex >= word.length) {
       clearInterval(typingInterval);
-      setTimeout(eraseWord, 1000); // Change the delay before erasing as desired
+      setTimeout(eraseWord, 650); // Change the delay before erasing as desired
     }
-  }, 100); // Change the typing speed (in milliseconds) as desired
+  }, 55); // Change the typing speed (in milliseconds) as desired
 }
 
 function eraseWord() {
